@@ -1,0 +1,31 @@
+@import url("common.css");
+
+.simple-button {
+	color: var(--light-color);
+	background: none;
+	border: solid 0.05em var(--light-color);
+	border-radius: 12px;
+	font-size: 1.25em;
+	/* font-weight: bold; */
+	vertical-align: middle;
+	text-align: center;
+	margin: 0.25em;
+	padding: 0 0.5em;
+}
+
+.simple-button:hover {
+	background: var(--light-transparent-color);
+}
+
+.simple-button:active {
+	transform: scale(0.9);
+}
+
+.monitor-entry {
+	margin: 0.5em 0;
+}
+
+.monitor-entry > input[type='text'] {
+	width: 3em;
+	text-align: center;
+}

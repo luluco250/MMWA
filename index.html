@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>MMWA</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<header id="page-header">
+		<nav id="page-navbar">
+			<div id="page-logo">
+				<h1>Multi Monitor Wallpaper Adjuster</h1>
+			</div>
+		</nav>
+	</header>
+
+	<main id="page-main">
+		<form id="app-controls">
+			Monitors<input id="add-monitor-button" class="simple-button" type="button" value="+"><br>
+			<ul id="monitor-list"></ul>
+			<br>
+			Image Mode<br>
+			<input type="radio" name="image-mode" value="single" checked>Single Image<br>
+			<input type="radio" name="image-mode" value="multi">Multiple Images<br>
+			<br>
+			<input type="file"><br>
+			
+			<br>
+		</form>
+		<canvas id="app-canvas"></canvas>
+	</main>
+
+	<footer id="page-footer">
+		<div id="page-footer-content">
+			<div id="page-copyright">Copyright 2019 - Lucas Melo</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/controls.js"></script>
+	<script src="assets/js/canvas.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@import url("reset.css");
+
+:root {
+	--light-color: #ddd;
+	--dark-color: #aaa;
+	--light-transparent-color: rgba(221, 221, 221, 0.25);
+	--main-color: #f0f0f0;
+	--main-background: #3a3a3a;
+	--edge-color: #aaa;
+	--accent-color: #62bbf7;
+	--header-color: #4d4d4d;
+	--footer-color: #1f1f1f;
+	--widget-color: #353535;
+	--widget-background: #ddd;
+	--widget-shadow-color: #aaa;
+	--widget-outline: #3d3d3d;
+	--popup-z: 100;
+	--header-z: 1000;
+	--overlay-z: 10000;
+}
